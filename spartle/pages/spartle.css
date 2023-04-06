@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+body
+{
+	background-color: #eee;
+}
+.header
+{
+	color: white;
+	text-align: center;
+	background-color: #FF5722;
+	margin: -8px;
+	padding-top: 1px;
+	padding-bottom: 0.5px;
+}
+.logo
+{
+	font-family: Rammetto One;
+	font-size: 40px;
+}
+.search_form
+{
+	text-align: center;
+}
+.search
+{
+	font-family: Noto Sans;
+	border-style: groove;
+	border-radius: 5px;
+	margin-top: 30px;
+	transition: 0.5s;
+	height: 30px;
+}
+.search:focus
+{
+	width: 300px;
+}
+.menu
+{
+	float: left;
+}
+.list_menu
+{
+	list-style-type: none;
+	background-color: #FF5722;
+	border-radius: 5px;
+	font-family: Noto Sans;
+	width: 300px;
+}
+li
+{
+	margin: 10px;
+	font-size: 25px;
+}
+li:hover
+{
+	font-size: 27px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+	margin-right: 20px;
+}
+.publication_area_form
+{
+	margin-top: 50px;
+	margin-left: 460px;
+	background-color: #FEA347;
+	height: 200px;
+	width: 424px;
+	border-radius: 5px;
+}
+.publication_area_write
+{
+	font-family: Noto Sans;
+	border-radius: 5px;
+	resize: none;
+    outline: none;
+    width: 410px;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.notext
+{
+	font-size: 30px;
+}
+.send
+{
+	height: 30px;
+	font-size: 17px;
+	margin-top: 5px;
+	margin-left: 325px;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+	background-color: #FF5722;
+	font-family: Noto Sans;
+	cursor: pointer;
+}
+.publication_parameters
+{
+	border-radius: 5px;
+	font-family: Noto Sans;
+	height: 30px;
+}
+.publis
+{
+	font-family: Noto Sans;
+	background-color: white;
+	border-radius: 5px;
+	width: 424px;
+	margin-left: 460px;
+	padding-bottom: 5px;
+}
+.p-pseudo
+{
+	padding-left: 10px;
+}
+.p-datepost
+{
+	margin-top: 0px;
+	margin-left: 10px;
+	color: grey;
+	font-size: 10px;
+}
+.line
+{
+	width: 400px;
+}
+.p-content
+{
+	padding-left: 15px;
+}
+.like
+{
+	margin-left: 275px;
+	border-style: none;
+	background-color: white;
+	cursor: pointer;
+}
+.comment
+{
+	margin-left: 5px;
+	border-style: none;
+	background-color: white;
+	cursor: pointer;
+}
+.share
+{
+	margin-left: 5px;
+	border-style: none;
+	background-color: white;
+	cursor: pointer;
+}
+.more
+{
+	margin-left: 5px;
+	border-style: none;
+	background-color: white;
+	cursor: pointer;
+}

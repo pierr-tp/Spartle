@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+.header
+{
+	color: white;
+	text-align: center;
+	background-color: #FF5722;
+	margin: -8px;
+	padding-top: 1px;
+	padding-bottom: 0.5px;
+}
+.logo
+{
+	font-family: Rammetto One;
+	font-size: 40px;
+}
+.devise
+{
+	font-family: Noto Sans;
+}
+.login_title
+{
+	font-size: 30px;
+	font-family: Noto Sans;
+	text-align: center;
+}
+.line
+{
+	width: 300px;
+}
+.login_form
+{
+	text-align: center;
+	font-family: Noto Sans;
+	margin-top: 30px;
+}
+.pseudo
+{
+	margin-left: 5px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+	border-radius: 5px;
+	border-style: groove;
+	height: 25px;
+	width: 250px;
+	font-size: 15px;
+}
+.password
+{
+	margin-left: 5px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+	border-radius: 5px;
+	border-style: groove;
+	height: 25px;
+	width: 250px;
+	font-size: 15px;
+}
+.submit
+{
+	text-align: center;
+	color: white;
+	font-family: Noto Sans;
+	background-color: #FF5722;
+	height: 40px;
+	width: 150px;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 15px;
+	cursor: pointer; 
+}
+.submit:hover
+{
+	background-color: orange;	
+}
+.registration_section
+{
+	text-align: center;
+	font-family: Noto Sans;
+}
+.registration_link
+{
+	text-decoration: none;
+	cursor: pointer;
+}

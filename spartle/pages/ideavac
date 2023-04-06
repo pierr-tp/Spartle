@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+.header
+{
+	color: white;
+	text-align: center;
+	background-color: blue;
+	margin: -8px;
+	padding-top: 1px;
+	padding-bottom: 0.5px;
+}
+.logo
+{
+	font-family: Rammetto One;
+	font-size: 40px;
+}
+.devise
+{
+	font-family: Noto Sans;
+}

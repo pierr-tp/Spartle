@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html id="spartle" lang="fr">
+<head>
+	<meta charset="utf-8">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<title id="title">Spartle</title>
+</head>
+<body class="body">
+	<header class="header" role="header">
+		<h1 class="logo">SPARTLE</h1>
+		<h3 class="devise">Tous vos moments en un réseau</h3>
+	</header>
+	<section class="home_section" role="section">
+		<article class="presentation" role="article">Partagez vos moments en famille ou entre copains et suivez ceux de vos proches.</article>
+		<article class="registration_form_page" role="article">
+			<h2 class="registration_title">Inscription</h2>
+			<hr class="line">
+			<h3 class="info">C'est simple, rapide et totalement gratuit.</h3>	
+			<form class="registration_form" method="post" action="">
+				<i class="fas fa-user-circle"></i>
+				<input type="text" name="pseudo" class="pseudo" id="login" placeholder="Choisissez un pseudo" required>
+				<span class="info" id="pseudo_info"></span>
+				<br>
+				<i class="fas fa-at"></i>
+				<input type="email" name="email" class="email" id="email" placeholder="Saisissez votre adresse mail" required>
+				<span class="info" id="email_info"></span>
+				<br>
+				<i class="fas fa-unlock-alt"></i>
+				<input type="password" name="password" class="password" id="pwd" placeholder="Choisissez un mot de passe" required>
+				<span class="info" id="password_info"></span>
+				<br>
+				<input type="submit" name="submit" class="submit" value="C'est parti">
+				<br>
+			</form>
+			<script type="text/javascript">
+				var req = new XMLHttpRequest();
+				req.open("GET", "http://localhost/spartle/pages/registration.post.php");
+				req.addEventListener("load", function () {
+				    if (req.status >= 200 && req.status < 400) { // Le serveur a réussi à traiter la requête
+				    	document.getElementByClassName('info');
+				        error.innerHtml = req.responseText;
+				    } else {
+				        // Affichage des informations sur l'échec du traitement de la requête
+				        console.error(req.status + " " + req.statusText);
+				    }
+				});
+				req.addEventListener("error", function () {
+				    // La requête n'a pas réussi à atteindre le serveur
+				    console.error("Erreur réseau");
+				});
+				req.send(null);
+			</script>				
+		</article>
+		<article class="login_section" role="article">
+			<p class="login_question">Déjà membre ?</p>
+			<a href="login.form.php" hreflang="fr" class="login_link">Connexion</a>
+		</article>
+	</section>
+</body>
+</html>

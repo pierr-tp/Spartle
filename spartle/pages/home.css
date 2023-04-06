@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+body
+{
+	background-image: url('DSC_1246');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+.header
+{
+	color: white;
+	text-align: center;
+	margin: -8px;
+	padding-top: 1px;
+	padding-bottom: 0.5px;
+}
+.logo
+{
+	font-family: Rammetto One;
+	font-size: 40px;
+}
+.devise
+{
+	font-family: Noto Sans;
+}
+.search_form
+{
+	text-align: center;
+}
+.search
+{
+	font-family: Noto Sans;
+	border-style: none;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	transition: 0.5s;
+	height: 35px;
+	width: 230px;
+	padding-left: 5px;
+}
+.search:focus
+{
+	width: 400px;
+}
+.publis
+{
+	background-color: #eee;
+	width: 300px;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-top: 0.1px
+	margin-top: 1px;
+}
+.date_publis
+{
+	color: grey;
+	font-family: Arial;
+	size: 1px;
+}
+.message
+{
+	font-family: Arial;
+}
